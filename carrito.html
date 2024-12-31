@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="header-top-bar">
+            <div class="header-top-bar--title">
+                <p>ENVIOS GRATIS A TODO EL PAIS</p>
+                <div class="header-top-nav">
+                    <ul>
+                        <li><a href="">Envios</a></li>
+                        <li><a href="">Cambios</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </section>
+        <section class="header-medio">
+            <div class="header-medio-nav">
+                <div class="header-medio-buttons">
+                    <div class="valor-dolar-section">
+                        <span class="valor-dolar">
+                          DOLAR HOY:
+                          <span class="valor-dolar-hoy"></span>
+                        </span>
+                        <br>
+                        <span class="fecha-dolar">
+                          Última actualización:
+                          <span class="fecha-valor-dolar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header-bottom">
+            <div class="header-bottom-nav">
+                <p><a href="./index.html"><span></span>SEGUIR COMPRANDO</a></p>
+                 <!-- borrar span -->
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main-carrito">
+            <div class="main-carrito--title">
+                <h2>CARRITO</h2>
+            </div>
+
+            <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío.</p>
+
+            <section id="carrito-productos" class="main-carrito-container">
+                <!-- Se completa con el JS -->    
+            </section>
+            <section id="carrito-acciones" class="carrito-acciones disabled">
+                <div class="carrito-acciones-izquierda">
+                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total:</p>
+                        <p id="total">$3000</p>
+                    </div>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
+            </section>
+            <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra.</p>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-top">
+            <div class="header-medio-nav">
+                <a href="" class="header-medio--button-logo" title="Timex Argentina"><span></span></a>
+                <div class="footer-top-sc">
+                    <h3>SERVICIO AL CLIENTE</h3>
+                    <ul>
+                        <li><a href="">Envios</a></li>
+                        <li><a href="">Cambios</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <p>® MATIAS VERA</p>
+            <P>113739</P>
+        </section>
+    </footer>
+
+    <script src="./js/carrito.js"></script>
+</body>
+</html>

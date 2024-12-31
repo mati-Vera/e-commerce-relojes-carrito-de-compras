@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timex Argentina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <section class="header-top-bar">
+            <div class="header-top-bar--title">
+                <p>ENVIOS GRATIS A TODO EL PAIS</p>
+                <div class="header-top-nav">
+                    <ul>
+                        <li><a href="">Envios</a></li>
+                        <li><a href="">Cambios</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </section>
+        <section class="header-medio">
+            <div class="header-medio-nav">
+                <a href="./index.html" class="header-medio--button-logo" title="Timex Argentina"><span></span></a>
+                <div class="header-medio-buttons">
+                    <ul>
+                        <li>
+                            <a href="./carrito.html" class="cart" title="Carrito"><span></span></a>
+                            <p id="numerito" class="numerito">0</p>
+                        </li>
+                    </ul>
+                    <div class="valor-dolar-section">
+                        <span class="valor-dolar">
+                          DOLAR HOY:
+                          <span class="valor-dolar-hoy"></span>
+                        </span>
+                        <br>
+                        <span class="fecha-dolar">
+                          Última actualización:
+                          <span class="fecha-valor-dolar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="header-bottom">
+            <div class="header-bottom-nav">
+                <ul>
+                    <li>
+                        <button id="todo" class="boton-menu boton-categoria active">TODOS</button>
+                    </li>
+                    <li>
+                        <button id="hombre" class="boton-menu boton-categoria">HOMBRE</button>
+                    </li>
+                    <li>
+                        <button id="mujer" class="boton-menu boton-categoria">MUJER</button>
+                    </li>
+                    <li>
+                        <button id="vestir" class="boton-menu boton-categoria">VESTIR</button>
+                    </li>
+                    <li>
+                        <button id="smart" class="boton-menu boton-categoria">SMARTWATCH</button>
+                    </li>
+                    <li>
+                        <button id="ironman" class="boton-menu boton-categoria">IRONMAN SPORT</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main-productos">
+            <div class="main-productos--title">
+                <h2 id="titulo-principal">TODOS LOS PRODUCTOS</h2>
+            </div>
+            <section id="contenedor-productos" class="main-productos-container">
+                <!-- Esto se rellena con JS -->
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-top">
+            <div class="header-medio-nav">
+                <a href="" class="header-medio--button-logo" title="Timex Argentina"><span></span></a>
+                <div class="footer-top-sc">
+                    <h3>SERVICIO AL CLIENTE</h3>
+                    <ul>
+                        <li><a href="">Envios</a></li>
+                        <li><a href="">Cambios</a></li>
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <p>® MATIAS VERA</p>
+            <P>113739</P>
+        </section>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
